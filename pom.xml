@@ -83,16 +83,16 @@
 				</executions>
 				<configuration>
 					<mainPaths>
-						<mainPath>/home/vboxuser/PROF-2023-Ejercicio3-datos/src/main/java/es/upm/grise/prof/curso2023/ejercicio3/SUT.java</mainPath>
+						<mainPath>./src/main/java/es/upm/grise/prof/curso2023/ejercicio3/SUT.java</mainPath>
 					</mainPaths>
 					<testPaths>
-						<testPath>/home/vboxuser/PROF-2023-Ejercicio3-datos/src/test/java/es/upm/grise/prof/curso2023/ejercicio3/SUTTest.java</testPath>
+						<testPath>./src/test/java/es/upm/grise/prof/curso2023/ejercicio3/SUTTest.java</testPath>
 					</testPaths>
 					<projectName>proyecto-prueba</projectName>
-					<csvName>resultados.csv</csvName>
-					<csvDirectory>/home/vboxuser/Desktop/</csvDirectory>
-					<jarPath>/home/vboxuser/Desktop/TestSmellDetector.jar</jarPath>
-					<exitPath>/home/vboxuser/Desktop/</exitPath>
+					<csvName>pruebas.csv</csvName>
+					<csvDirectory>./result</csvDirectory>
+					<jarPath>./resources/TestSmellDetector.jar</jarPath>
+					<exitPath>.</exitPath>
 				</configuration>
 			</plugin>
 		</plugins>
