@@ -90,7 +90,7 @@
 					</testPaths>
 					<projectName>proyecto-prueba</projectName>
 					<csvName>pruebas.csv</csvName>
-					<csvDirectory>./result</csvDirectory>
+					<csvDirectory>.</csvDirectory>
 					<jarPath>./resources/TestSmellDetector.jar</jarPath>
 					<exitPath>.</exitPath>
 				</configuration>
